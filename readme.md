@@ -20,7 +20,7 @@ This project is a demonstration of an HTML parser that fetches HTML content from
 
 ### Step 1: Clone the Repository
 Clone the repository to your local machine using:
-git clone [repositoryURL]
+git clone https://github.com/Cartrogen/HTML-Parser.git
 
 Navigate into the project directory and run the following command to install all dependencies:
 `npm install`
