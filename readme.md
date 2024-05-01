@@ -39,14 +39,15 @@ Before running the application, ensure your Docker environment is ready. Execute
 
 This command builds the Docker images and starts the containers specified in `docker-compose.yml`.
 
-### Step 4: Running the Application
+### Step 4: Log File Configuration
+Create a file called `app.log` in the root directory of your project to capture logs by running the following command:
+`touch app.log`
+
+### Step 5: Running the Application
 To start the application, navigate to the project directory and run:
 `npm start`
 
 This will start the Express server on the port defined in your `.env` file (`3000` by default).
-
-### Step 5: Log File Configuration
-Create a file called `app.log` in the root directory of your project to capture logs:
 
 ## Using the Application
 To use the application, send a POST request to the endpoint with a URL to parse HTML content. Use Postman or any other API testing tool to make this request.
