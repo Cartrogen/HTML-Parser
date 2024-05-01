@@ -1,2 +1,4 @@
 node_modules/
 app.log
+output.json
+.DS_Store
