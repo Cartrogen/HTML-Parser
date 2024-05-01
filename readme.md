@@ -28,8 +28,9 @@ Navigate into the project directory and run the following command to install all
 ### Step 2: Environment Configuration (already been configured)
 Ensure that `.env` file is in the project root with the following contents:
 
-APP_PORT=3000
-MONGODB_PORT=27017
+`APP_PORT=3000`
+
+`MONGODB_PORT=27017`
 
 Note that this above step has already been done for a smoother experience as part of this project. 
 
